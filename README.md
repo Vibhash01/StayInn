@@ -1,4 +1,4 @@
-🏨 StayInn – A One-Stop Hotel Booking Platform
+🏨 StayInn – One-Stop Hotel Booking Platform
 
 StayInn is a full-stack hotel booking platform where users can browse hotels, view details, and book stays with ease. It includes secure login/signup authentication, session management, a personalized user dashboard, and a modern responsive UI.
 
