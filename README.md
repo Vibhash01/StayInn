@@ -42,4 +42,66 @@ Backend
 
 🔐 JWT-based authentication & session management
 
-Deployment
+
+Project Structure 
+
+StayInn/
+ ├── Backend/
+ │   ├── controllers/
+ │   ├── models/
+ │   ├── routes/
+ │   ├── app.js
+ │   ├── package.json
+ │
+ ├── Frontend/
+ │   ├── public/
+ │   ├── src/
+ │   ├── vite.config.js
+ │   ├── package.json
+ │
+ ├── README.md
+ └── .github/workflows (CI/CD configs)
+
+
+⚡ Getting Started
+1️⃣ Clone the repository
+git clone https://github.com/your-username/stayinn.git
+cd stayinn
+
+2️⃣ Setup Backend
+cd Backend
+yarn install   # or npm install
+yarn start     # or npm run dev
+
+
+Create a .env file in the Backend folder:
+
+PORT=5000
+MONGO_URI=your_mongodb_connection
+JWT_SECRET=your_jwt_secret
+
+3️⃣ Setup Frontend
+cd Frontend
+yarn install   # or npm install
+yarn dev
+
+4️⃣ Access the app
+
+Frontend: http://localhost:5173
+
+Backend: http://localhost:5000
+
+
+
+🤝 Contributing
+
+Contributions are welcome!
+Fork the repo
+Create a new branch (feature-xyz)
+Commit changes
+Open a PR
+
+
+📜 License
+
+This project is licensed under the MIT License.
